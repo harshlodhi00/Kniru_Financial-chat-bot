@@ -3,7 +3,9 @@ from typing import Union
 
 import openai
 
-openai.api_key = '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'
+OPENAI_API_KEY = 'YOUR_API_KEY' #paste you api key at the place of YOUR_API_KEY
+
+openai.api_key = OPENAI_API_KEY
 
 app = Flask(__name__)
 @app.route("/")
