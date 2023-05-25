@@ -69,7 +69,7 @@ def get_Chat_response(input):
     prompt_list: list[str] = ['You are a fianancial assistance and you have to assist the personal with his financial data',
                               '\nHere it his/her financial data in json file, you have to give suggestion based on this data',
                               '{ "date": "2021-01-01", "amount": 1000, "category": "income", "description": "salary" },{ "date": "2021-01-02", "amount": -50, "category": "groceries", "description": "milk and eggs" },{ "date": "2021-01-03", "amount": -100, "category": "entertainment", "description": "movie tickets" },{ "date": "2021-01-04", "amount": -20, "category": "transportation", "description": "bus fare" },{ "date": "2021-01-05", "amount": -200, "category": "bills", "description": "electricity bill" },{ "date": "2021-01-06", "amount": -30, "category": "groceries", "description": "bread and cheese" },{ "date": "2021-01-07", "amount": -150, "category": "clothing", "description": "new shoes" },{ "date": "2021-01-08", "amount": -40, "category": "healthcare", "description": "prescription drugs" },{ "date": "2021-01-09", "amount": -80, "category": "education", "description": "online course" },{ "date": "2021-01-10", "amount": -60, "category": "entertainment", "description": "pizza delivery" }']
-
+    
     user_input: str = input
     response: str = get_bot_response(user_input, prompt_list)
     return response
