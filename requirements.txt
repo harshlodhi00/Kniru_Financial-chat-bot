@@ -1,0 +1,4 @@
+Openai
+flask
+transformers
+torch
