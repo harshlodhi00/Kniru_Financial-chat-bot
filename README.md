@@ -1,7 +1,7 @@
 # Kniru_Financial-chat-bot
 The "Kniru_Financial-chat-bot" is a Flask-based chatbot that assists users with their financial data and provides suggestions based on the given information. It utilizes the OpenAI API to generate responses for user queries. It is developed for Kniru Home-Exam.
 
-<img alt="Demo Image" src="Demo.png">
+[<img alt="demo_image" width="40px" src="Demo.png" />]
 
 ## Get Your API Key from openAI
 
